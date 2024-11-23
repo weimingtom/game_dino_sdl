@@ -1,5 +1,8 @@
 # game_dino_sdl
-[WIP] My dino game SDL port
+[WIP] My dino game SDL port  
+
+## Before building    
+* Before execute 'make', maybe need to 'sudo apt install libsdl1.2-dev' in Ubuntu 14.  
 
 ## Ref  
 * https://github.com/weimingtom/game_dino_vc6  
@@ -14,6 +17,7 @@
 * Init is demo mode, press space keyboard to enter game mode  
 
 ## TODO  
+* Port to SDL2, and port to linux game handheld hardware.  
 * TileGrid::set_flip_x not implemented  
 * Embed bmp data into code  
 
